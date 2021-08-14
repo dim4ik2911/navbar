@@ -83,26 +83,21 @@ $stroke-color: #ff2c75;
 
   list-style: none;
 
-  background-color: #eceff1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #02001f, #1f1b4e);
 
   transition-duration: 0.25s;
 }
-
+.menu__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 95%;
+}
 .menu__item {
-  display: block;
-  padding: 12px 24px;
-
-  color: #333;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-
+  font-size: 60px;
+  color: $stroke-color;
+  font-family: "Khula", sans-serif;
   text-decoration: none;
-
-  transition-duration: 0.25s;
-}
-.menu__item:hover {
-  background-color: #cfd8dc;
 }
